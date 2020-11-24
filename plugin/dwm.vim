@@ -205,10 +205,10 @@ if g:dwm_map_keys
   endif
 
   if !hasmapto('<Plug>DWMNew')
-      nmap <C-N> <Plug>DWMNew
+      nmap <NL> <Plug>DWMNew
   endif
   if !hasmapto('<Plug>DWMClose')
-      nmap <C-C> <Plug>DWMClose
+      nmap <C-Q> <Plug>DWMClose
   endif
   if !hasmapto('<Plug>DWMFocus')
       nmap <C-@> <Plug>DWMFocus
